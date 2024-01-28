@@ -76,13 +76,13 @@ export const InfoLinks: linksType[] = [
     {
         id: 0,
         title: 'База знаний',
-        href: '/base_knowledge',
+        href: 'base_knowledge',
         icon: questionImg
     },
     {
         id: 1,
         title: 'Обновления',
-        href: '/updates',
+        href: 'updates',
         icon: updatesImg
     }
 ]

@@ -21,7 +21,6 @@ import { usePathname } from 'next/navigation';
 const NavBar: React.FC = () => {
 
     const pathname = usePathname();
-    console.log(pathname)
 
     return (
      <section className={styles.window}>
@@ -64,7 +63,6 @@ const NavBar: React.FC = () => {
                         </li>
                     )
                 })}
-               
             </ul>
         </div>
         

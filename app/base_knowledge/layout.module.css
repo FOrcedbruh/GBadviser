@@ -1,0 +1,81 @@
+.window {
+    width: calc(100% - 300px);
+    min-height: 100vh;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    background-color: #F5F6FA;
+}
+.menuBar {
+    width: 325px;
+    padding: 30px 40px;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+}
+.menuBar p {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    color: #5A607F;
+}
+.menuBar h1 {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    color: #131523;
+    padding: 0;
+    margin: 0;
+}
+.links {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    height: fit-content;
+}
+.links ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 5px;
+}
+.links ul li {
+    width: 265px;
+    height: 44px;
+    border-radius: 4px;
+    padding: 12px 20px;
+    transition: all .2s ease;
+}
+.links ul li:hover {
+    background: #4F81FF;
+}
+.links ul li a {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    text-decoration: none;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    color: #131523;
+}
+.container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items: start;
+}

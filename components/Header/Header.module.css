@@ -1,0 +1,83 @@
+.window {
+    height: 68px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.window section {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+.window section .logo h1 {
+    font-size: 21.7px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 31px;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.Inpt {
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.Inpt input {
+    border: none;
+    outline: none;
+    width: 200px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    color: #5A607F;
+}
+.window section.info {
+    justify-content: end;
+    gap: 20px;
+}
+.window section.info img {
+    cursor: pointer;
+}
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 11px;
+    cursor: pointer;
+}
+.profile h4{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.notices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.notices p {
+    text-align: center;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #1E5EFF;
+    transform: translateY(-8px) translateX(-14px);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    color: #fff;
+}

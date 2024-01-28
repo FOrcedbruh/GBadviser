@@ -1,0 +1,155 @@
+.window {
+    width: 300px;
+    height: 100vh;
+    background: #F5F6FA;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.window::-webkit-scrollbar {
+    width: 10px;
+}
+.mainLinks {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    width: 100%;
+    height: fit-content;
+}
+.mainLinks ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding: 0;
+    list-style: none;
+    gap: 10px;
+}
+.mainLinks ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 44px;
+    padding: 10px 16px;
+    text-align: start;
+    border-radius: 4px;
+    
+}
+.mainLinks ul li:hover {
+    background-color: #4F81FF;
+}
+.mainLinks ul li a {
+    text-align: start;
+    color: #5A607F;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    text-decoration: none;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 16px;
+    width: 100%;
+}
+.category {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;
+    color: #A1A7C4;
+    padding: 0px 16px;
+}
+
+.infoLinks {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: start;
+    width: 100%;
+    height: fit-content;
+}
+.infoLinks ul {
+    list-style: none;
+    padding: 0;
+    gap: 10px;
+}
+.infoLinks ul li {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 220px;
+    height: 44px;
+    padding: 10px 16px;
+    text-align: start;
+    border-radius: 4px;
+}
+.infoLinks ul li:hover {
+    background-color: #4F81FF ;
+}
+.infoLinks ul li a {
+    text-align: start;
+    color: #5A607F;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    text-decoration: none;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 16px;
+    width: 100%;
+}
+
+.settingsLinks {
+    padding: 0;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: start;
+    width: 100%;
+    height: fit-content;
+}
+.settingsLinks ul {
+    list-style: none;
+    padding: 0;
+    gap: 10px
+}
+
+.settingsLinks ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 44px;
+    padding: 10px 16px;
+    text-align: start;
+    border-radius: 4px;
+}
+.settingsLinks ul li:hover {
+    background-color: #4F81FF ;
+}
+.settingsLinks ul li a {
+    text-align: start;
+    color: #5A607F;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    text-decoration: none;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 16px;
+    width: 100%;
+}
+
+.window li {
+    transition: all .2s ease;
+}

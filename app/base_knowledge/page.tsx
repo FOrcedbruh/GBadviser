@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 
 
-const initialSetup: React.FC = () => {
+const InitialSetup: React.FC = () => {
 
 
 
@@ -94,4 +94,4 @@ const initialSetup: React.FC = () => {
     )
 }
 
-export default initialSetup;
+export default InitialSetup;

@@ -1,8 +1,0 @@
-.window {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: calc(100% - 300px);
-    min-height: 100vh;
-    background-color: #F5F6FA;
-}

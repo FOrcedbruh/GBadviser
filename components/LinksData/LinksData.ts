@@ -55,7 +55,7 @@ export const MainLinks: linksType[] = [
     {
         id: 5,
         title: 'Статистика',
-        href: 'statistic',
+        href: 'satistic',
         icon: statisticImg
     },
     {
@@ -76,13 +76,13 @@ export const InfoLinks: linksType[] = [
     {
         id: 0,
         title: 'База знаний',
-        href: 'base_knowledge',
+        href: '/base_knowledge',
         icon: questionImg
     },
     {
         id: 1,
         title: 'Обновления',
-        href: 'updates',
+        href: '/updates',
         icon: updatesImg
     }
 ]
@@ -99,7 +99,7 @@ export const SettingsLinks: linksType[] = [
     {
         id: 1,
         title: 'Общие настройки',
-        href: 'main_settings',
+        href: '/main_settings',
         icon: settingsImg
     }
 ]

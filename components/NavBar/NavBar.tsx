@@ -3,9 +3,9 @@
 import styles from './NavBar.module.css';
 import Link from 'next/link';
 import Image from 'next/image';
-import { MainLinks } from './Linksdata';
-import { InfoLinks } from './Linksdata';
-import { SettingsLinks } from './Linksdata';
+import { MainLinks } from '../LinksData/LinksData';
+import { InfoLinks } from '../LinksData/LinksData';
+import { SettingsLinks } from '../LinksData/LinksData';
 import { usePathname } from 'next/navigation';
 
 
@@ -40,7 +40,7 @@ const NavBar: React.FC = () => {
             </h3>
             <ul>
                 {InfoLinks.map(link => {
-                    const isActive = pathname.endsWith(link.href);
+                    const isActive = pathname.startsWith(link.href);
                     return (
                         <li className={isActive ? 'activeLink' : ''} key={link.id}>
                             <Link style={{'color': `${isActive ? '#fff' : ''}`}} href={link.href}><Image src={link.icon} alt='' width={24} height={24}/> <p>{link.title}</p></Link>
@@ -56,7 +56,7 @@ const NavBar: React.FC = () => {
             </h3>
             <ul>
                 {SettingsLinks.map(link => {
-                    const isActive = pathname.endsWith(link.href);
+                    const isActive = pathname.startsWith(link.href);
                     return (
                         <li className={isActive ? 'activeLink' : ''} key={link.id}>
                             <Link style={{'color': `${isActive ? '#fff' : ''}`}} href={link.href}><Image src={link.icon} alt='' width={24} height={24}/> <p>{link.title}</p></Link>

@@ -41,9 +41,9 @@ const Header: React.FC = () => {
             {value &&<section className={styles.aura}>
                 <article className={styles.searchResult}>
                             {filteredLinks.length != 0 ? <ul>
-                                {value ? filteredLinks.map(link => {
+                                {value ? filteredLinks.map((link, index) => {
                                     return (
-                                        <li>
+                                        <li key={index}>
                                             <Link onClick={() => setValue('')} href={link.href}>{link.title.charAt(0).toUpperCase() + link.title.slice(1)}</Link> <Image src={Arrow} alt='' width={24} height={24}/>
                                         </li>
                                     )
